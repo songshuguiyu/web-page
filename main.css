@@ -20,7 +20,7 @@ body{
   text-align: center;
   margin: -40px;
   font-family: 'open scan',helvetica,arial,sans-serif;
-  font-weight: 300;
+  font-weight: 300px;
   font-style: normal;
 }
 
@@ -46,13 +46,36 @@ padding: 0;
   text-align: center;
 }
 
-#menue>li{
+#menue>li {
   list-style: none;
-  color: #FFF;
+  color: #ffffff;
   display: inline-block;
 
   height: 30px;
   line-height: 30px;
   padding: 0 10px;
 
+}
+
+#menue>li a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#menue>li a.current{
+  text-decoration: underline;
+}
+
+#menue>li a:hover{
+  text-decoration: underline;
+}
+.details h1{
+  font-size: 35px;
+  color: #000;
+  text-align: center;
+  margin: 10px;
+  font-family: 'open scan',helvetica,arial,sans-serif;
+  /*font-weight: 300px;
+  font-style: normal;*/
 }
